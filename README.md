@@ -15,7 +15,7 @@ Neste tipo de ataque, o criminoso cria uma tela falsa que imita a interface de u
 É bem intuitivo, você entra no arquivo bitbpy.py, altera a váriavel "ip" para o ip externo e a porta que está aberta (pode-se usar o localhost para testes também)
 depois você acessa o ip e pronto 
 disfarçar a url e comprar um dominio é uma coisa que a ferramenta não faz sozinha
-você pode adicionar mais telas, basta ter os arquivos html e php do site em questão e editar o pyphish.py
+você pode adicionar mais telas, basta ter os arquivos html e php do site em questão e editar o bitbpy.py
 (por padrão o ip e porta são:  0.0.0.0:8080)
 
 # ✅ Imagens:
