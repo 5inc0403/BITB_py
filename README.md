@@ -18,5 +18,10 @@ disfarçar a url e comprar um dominio é uma coisa que a ferramenta não faz soz
 você pode adicionar mais telas, basta ter os arquivos html e php do site em questão e editar o pyphish.py
 (por padrão o ip e porta são:  0.0.0.0:8080)
 
+# ✅ Imagens:
+![menu](https://github.com/user-attachments/assets/e955bf0b-6793-4caf-b05b-d706da997665)
+![Tela-gerada](https://github.com/user-attachments/assets/5b0d0728-00de-4fdf-be58-aeff6d966d32)
+![informações](https://github.com/user-attachments/assets/eb23c103-05d0-456b-92b7-4bb5a14fb1f9)
+
 
 
