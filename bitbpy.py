@@ -18,9 +18,9 @@ banner="""
 ⠀⠀⣿⣿⣿⠁⠀⠈⠙⢿⣿⣦⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⣿⣿⣿⣿⠀
 ⠀⠀⢿⣿⣿⣆⠀⠀⠀⠀⠈⠛⠿⣿⣶⣦⡤⠴⠀⠀⠀⠀⠀⣸⣿⣿⣿⡿⠀⠀
 ⠀⠀⠈⢿⣿⣿⣷⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⣰⣿⣿⣿⣿⠀⠀
-⠀⠀⠀⠀ ⠙⢿⣿⣿⣿⣶⣦⣤⣀⣀⡀⠀⠀⠀⣀⣠⣴⣾⣿⣿⣿⡿⠃⠀⠀⠀         **pyphish**
+⠀⠀⠀⠀ ⠙⢿⣿⣿⣿⣶⣦⣤⣀⣀⡀⠀⠀⠀⣀⣠⣴⣾⣿⣿⣿⡿⠃⠀⠀⠀         **bitbpy**
 ⠀⠀⠀⠀⠀⠀⠈⠙⠻⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⠋⠀⠀⠀⠀ Uma simples ferramenta  de phishing
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠙⠛⠛⠛⠛⠛⠛⠉⠁⠀⠀⠀⠀⠀⠀⠀          Powered by Zer01
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠙⠛⠛⠛⠛⠛⠛⠉⠁⠀⠀⠀⠀⠀⠀⠀         Powered by Double-G
 """
 print(cl(banner,"yellow"))
 print(" ")
@@ -74,7 +74,7 @@ def pages(m_input):
         print('Abra o Arquivo README.md')
 
     elif m_input == '00' or m_input == '0':
-        print("Obrigado por usar a PyPhish...")
+        print("Obrigado por usar a BITBPy...")
         exit()
     else :
         print("\n--> Insira um valor válido...\n")
